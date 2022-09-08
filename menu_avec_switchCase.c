@@ -24,8 +24,8 @@ int main()
 
         case 4 : printf(" vous avez choisi salade ");
                     break ;
-        default : ("vous n'avez pas choisi ");
-                break ;
+        default :
+            ("vous n'avez pas choisi ");
    }
     return 0;
 }
