@@ -34,7 +34,7 @@ void moyenne(personne* T, int size){
         Somme += T[i].age ;
     }
     Moyenne = Somme / size ;
-    printf("la moyenne d'age est %d",Moyenne);
+    printf("la moyenne d'age est %d\n",Moyenne);
 
 
 
@@ -128,6 +128,8 @@ int main(){
         printf("***************la moyenne d'age des eleves****************\n\n\n");
         int moy ;
         moyenne(personnes,Taille);
+        printf("Veux-tu ajouter un d'autre element (O/N)");
+        scanf(" %c",&reponse);
         }
 
 
