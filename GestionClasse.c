@@ -62,12 +62,12 @@ int main(){
         scanf("%d",&personnes[i].dateN.mois);
         printf("\t ->l'annee : ");
         scanf("%d",&personnes[i].dateN.annee);
-        personnes[i].age = 2021 - personnes[i].dateN.annee;
+        personnes[i].age = 2022 - personnes[i].dateN.annee;
         printf("age : %d\n",personnes[i].age);
         printf("\n******************************************\n");
     }
 
-        printf("\n\n\n******************************************\n\n\n");
+        printf("\n\n******************************************\n\n");
         printf("***********la liste d'eleve***********\n\n\n");
         for(int i = 0 ; i<Taille ; i++){
             printf("nom : %s \t prenom : %s \t age : %d ans \n",personnes[i].nom,personnes[i].prenom,personnes[i].age);
